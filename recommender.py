@@ -23,7 +23,7 @@ def load_data():
 
     # Load ZIP location data
     zip_location = pd.read_csv(
-        "us-zip-code-latitude-and-longitude.csv",
+        "us-zip-code-latitude-and-longitude (1).csv",
         sep=";",
         dtype={"Zip": str}
     )
